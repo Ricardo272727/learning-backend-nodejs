@@ -1,0 +1,27 @@
+{"level":"error","message":"Uuuu fallo algo papu"}
+{"level":"error","message":9021}
+{"level":"error","message":9021,"timestamp":"2021-03-28T01:29:19.638Z"}
+{"level":"error","message":9021,"timestamp":"2021-03-28T01:29:54.208Z"}
+{"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlMessage":"Table 'Estacionamiento.event' doesn't exist","sqlState":"42S02","index":0,"sql":"update `event` set `fecha` = '2021-03-27 19:35:22' where 1 = 0","level":"error","message":"Error: Error reiniciando tiempo de residentes update `event` set `fecha` = '2021-03-27 19:35:22' where 1 = 0 - ER_NO_SUCH_TABLE: Table 'Estacionamiento.event' doesn't exist","stack":"Error: ER_NO_SUCH_TABLE: Table 'Estacionamiento.event' doesn't exist\n    at Query.Sequence._packetToError (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)\n    at Query.ErrorPacket (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)\n    at Protocol._parsePacket (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/protocol/Protocol.js:291:23)\n    at Parser._parsePacket (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/protocol/Parser.js:433:10)\n    at Parser.write (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/protocol/Parser.js:43:10)\n    at Protocol.write (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/protocol/Protocol.js:38:16)\n    at Socket.<anonymous> (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/Connection.js:88:28)\n    at Socket.<anonymous> (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/Connection.js:526:10)\n    at Socket.emit (events.js:315:20)\n    at addChunk (internal/streams/readable.js:309:12)\n    at readableAddChunk (internal/streams/readable.js:284:9)\n    at Socket.Readable.push (internal/streams/readable.js:223:10)\n    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)\n    --------------------\n    at Protocol._enqueue (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/protocol/Protocol.js:144:48)\n    at Connection.query (/home/cuanalo/school/learn-backend/node_modules/mysql/lib/Connection.js:198:25)\n    at /home/cuanalo/school/learn-backend/node_modules/knex/lib/dialects/mysql/index.js:126:18\n    at new Promise (<anonymous>)\n    at Client_MySQL._query (/home/cuanalo/school/learn-backend/node_modules/knex/lib/dialects/mysql/index.js:120:12)\n    at executeQuery (/home/cuanalo/school/learn-backend/node_modules/knex/lib/execution/internal/query-executioner.js:37:17)\n    at Client_MySQL.query (/home/cuanalo/school/learn-backend/node_modules/knex/lib/client.js:134:12)\n    at Runner.query (/home/cuanalo/school/learn-backend/node_modules/knex/lib/execution/runner.js:130:36)\n    at ensureConnectionCallback (/home/cuanalo/school/learn-backend/node_modules/knex/lib/execution/internal/ensure-connection-callback.js:13:17)\n    at Runner.ensureConnection (/home/cuanalo/school/learn-backend/node_modules/knex/lib/execution/runner.js:272:20)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async Runner.run (/home/cuanalo/school/learn-backend/node_modules/knex/lib/execution/runner.js:30:19)","timestamp":"2021-03-28T01:35:22.406Z"}
+{"status":500,"code":0,"level":"error","timestamp":"2021-03-28T01:36:12.552Z"}
+{"status":500,"code":0,"level":"error","timestamp":"2021-03-28T01:37:15.388Z"}
+{"level":"error","message":"Error reiniciando tiempo de residentes","timestamp":"2021-03-28T01:37:29.046Z"}
+{"level":"error","message":"Error reiniciando tiempo de residentes","timestamp":"2021-03-28T01:39:08.856Z"}
+{"level":"error","message":"Error desconocido (comienza mes)","timestamp":"2021-03-28T01:44:05.737Z"}
+{"level":"error","message":"Error generando archivo de pagos","timestamp":"2021-03-28T01:50:53.554Z"}
+{"level":"error","message":"Error generando archivo de pagos","timestamp":"2021-03-28T01:51:05.187Z"}
+{"level":"error","message":"Error generando archivo de pagos","timestamp":"2021-03-28T01:51:54.554Z"}
+{"level":"error","message":"Error generando archivo de pagos","timestamp":"2021-03-28T01:52:11.742Z"}
+{"level":"error","message":"Error generando pdf","timestamp":"2021-03-28T01:52:42.998Z"}
+{"level":"error","message":"Error generando pdf","timestamp":"2021-03-28T01:52:48.183Z"}
+{"level":"error","message":"Error registrando salida","timestamp":"2021-03-28T02:09:41.725Z"}
+{"level":"error","message":"a caracas","timestamp":"2021-03-28T02:10:47.580Z"}
+{"level":"error","message":"Error registrando salida","timestamp":"2021-03-28T02:10:47.582Z"}
+{"level":"error","message":"a caracas","timestamp":"2021-03-28T02:11:27.121Z"}
+{"level":"error","message":"Error registrando salida","timestamp":"2021-03-28T02:11:27.125Z"}
+{"level":"error","message":"a caracas","timestamp":"2021-03-28T02:11:48.032Z"}
+{"level":"error","message":"a caracas","timestamp":"2021-03-28T02:11:58.336Z"}
+{"level":"error","message":"a caracas","timestamp":"2021-03-28T02:13:20.928Z"}
+{"level":"error","message":"a caracas","timestamp":"2021-03-28T02:13:26.809Z"}
+{"level":"error","message":"a caracas","timestamp":"2021-03-28T02:13:30.183Z"}
+{"level":"error","message":"Error desconocido (comienza mes)","timestamp":"2021-03-28T02:35:11.867Z"}

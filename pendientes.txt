@@ -1,0 +1,29 @@
+Creacion de la base de datos
+
+Vehiculo
+  placa
+  tarifaId  
+
+Tarifas
+  precioPorMinuto
+  nombre
+  id
+
+  Seed:
+    premium: 0.5
+    normal: 1    
+
+Evento
+  id
+  fecha
+  tipo 
+  vehiculoId
+
+
+
+Manejo de codigos de error
+Verificar al menos una propiedad aparte de id en update
+Tarifas repetidas
+Requerir al menos una propiedad en ajv
+Placas repetidas
+Throw errores desde modelos y query

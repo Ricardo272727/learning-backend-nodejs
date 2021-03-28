@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "required": ["cityId", "firstName", "lastName", "email", "password", "address", "pricePerHour", "education"],
+  "allOf": [{
+    "properties": {
+      "cityId": { "type": "integer", "minimum": 1 },
+      "firstName": { "type": "string" },
+      "lastName": { "type": "string" },
+      "email": { "type": "string"},
+      "password": { "type": "string" },
+      "address": { "type": "string" },
+      "phone": { "type": "string"},
+      "pricePerHour": { "type": "integer", "minimum": 1 },
+      "about": { "type": "string" },
+      "education": { "type": "string" },
+      "imageUrl": { "type": "string" }
+    },
+    "additionalProperties": false
+  }]
+}
